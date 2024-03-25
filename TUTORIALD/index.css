@@ -17,7 +17,7 @@ section,
 #footer {
     height: 100vh;
     position: relative;
-    color: rgba(255, 255, 255, .8);
+    color: #00ffff;
     font-size: 10vh;
     /* 设置字体 */
     font-family: 'Orbitron', sans-serif;
@@ -34,7 +34,7 @@ section,
 #footer {
     background-color: #000;
     height: 50vh;
-    color: #fff;
+    color: #ff6b6b;
     font-size: 5vh;
 }
 
@@ -90,6 +90,7 @@ section,
     transform-origin: center bottom;
     /* 扭曲斜切 */
     transform: skew(0, -8deg);
+    
 
 }
 
@@ -101,6 +102,7 @@ section,
     max-width: 990px;
     transform-origin: right bottom;
     transform: skew(0, 8deg);
+    
 }
 
 .cnt h2 {
@@ -112,15 +114,17 @@ section,
     letter-spacing: 0.3em;
     /* 大写字母 */
     text-transform: uppercase;
-    color: #fff;
+    color: #00ffff;
     margin-bottom: 5px;
+    text-align: right;
 }
 
 .cnt p {
     font-size: 20px;
     line-height: 1.7;
     margin-bottom: 10px;
-    color: #fff;
+    color: #ff6b6b;
+    text-align: right;
 }
 
 .cnt a.btn {
@@ -136,6 +140,7 @@ section,
     white-space: nowrap;
     text-decoration: none;
     padding: 0 20px;
+    border-radius: 10px 50px 50px 10px; 
 
 }
 
