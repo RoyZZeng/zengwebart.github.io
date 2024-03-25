@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* #bottomright {
+            position: fixed; 
+            background-color: blue; 
+            width: 30px; 
+            height: 30px; 
+            bottom: 30px; 
+            right: 30px; 
+            z-index: 10000; 
+        } */
+
+        /* #bottomright {
+            position: fixed; 
+            background-color: blue; 
+            width: 9vw; 
+            height: 9vh;
+            bottom: 3vh; 
+            right: 3vw; 
+            z-index: 10000; 
+        } */
+
+        /* #bottomright {
+        position: fixed; 
+        background-color: blue; 
+        width: 9w; 
+        height: 9vh;
+        top: 97vh; 
+        left: 97vw; 
+        z-index: 10000;
+        } */
+
+        #bottomright {
+            position: fixed; 
+            background-color: blue; 
+            width: 9vw; 
+            min-width: 90px; 
+            max-width: 300px; 
+            height: 3vh;
+            top: 97vh; 
+            left: 97vw; 
+            z-index: 10000;
+        }
+
+       
+        @media (max-width: 600px) {
+            #bottomright {
+            display: inline; 
+            } 
+
+	        body {
+            background-color: red; 
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px){
+
+        }
+
+
+
+
+
+
+
+
+
+        
+
+    </style>
+</head>
+<body>
+    
+    <div id="bottomright"></div>
+
+    <img  alt="One of 5 gifs of frames that act as borders for the webpage and layer on top of each other, shuffling when you scroll. This one is rainbow-colored and recalls the 70s and natural gooey movement. It also has a solid and straight non-animated blue-grey line around its edge." id="rainbow"  class="borders" src="frames/rainbow.gif">
+    <img  alt="One of 5 gifs of frames that act as borders for the webpage and layer on top of each other, shuffling when you scroll. This one has as its background a black curved thick line, something like what a child would draw. On top of that are about twenty images iterations of one flower, moving in various sizes and positions. The flower has 5 petals, darker pink on the edges, and a yellow center with little stems coming out of it. The petals are far apart from one another." id="pink" class="borders" src="frames/pinkflowers.gif">
+    <img  alt="One of 5 gifs of frames that act as borders for the webpage and layer on top of each other, shuffling when you scroll. This one also has a solid and straight non-animated blue-grey line around its edge. Here, the animated part consists of bright pink and dark magenta stripes arranged as though they are coming out from the center as rays from a sun. They are speckled with white sparkles of various sizes. This is one of two gifs that are not rectangular; the flowers stick out beyond the black border, and their edges are visible no matter how the gifs are layered." id="borderp" class="borders" src="frames/borderpink.gif">
+    <img  alt="One of 5 gifs of frames that act as borders for the webpage and layer on top of each other, shuffling when you scroll. This one is all bright computational green and black. It resembles the rainbow one in its movement: there's something liquid about it, like oil in water -- where the borders between substances are curved and also at times blur into one another. But it's much slower than the rainbow one, and the chunks of green and black are wider." id="slowg" class="borders" src="frames/slowg.gif">
+    <img  alt="One of 5 gifs of frames that act as borders for the webpage and layer on top of each other, shuffling when you scroll. This is one of two gifs that are not rectangular; while the outer edge is rectangular and flush with the edges of the window, the inner edge is very complex. It's the most complex of all the gifs. On the outer side it has a light green and black plaid pattern. On top of that and toward the center is a shimmering green and black design that recalls both ornate antique frames and video game depictions of turbulent seas. Elements of this are visible in the corners no matter how the gifs are shuffled." id="green" class="borders" src="frames/green.gif">
+
+
+
+    <script>
+        const isComp = window.matchMedia('(min-width: 600px)')
+    
+        if (isComp.matches) {
+        alert("you're probably on your desktop!"); 
+        }
+    
+    </script>
+    
+    
+
+
+</body>
+</html>
