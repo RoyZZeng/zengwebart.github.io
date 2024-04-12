@@ -56,7 +56,10 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  let canvas = createCanvas(windowWidth, windowHeight);
+  // 将canvas设置为特定元素的子项
+  canvas.parent('canvasContainer');
+  
   buffer = createGraphics(windowWidth, windowHeight); // 创建和画布大小相同的图形缓冲区
   buffer.imageMode(CENTER);
   let imgX = windowWidth / 2;

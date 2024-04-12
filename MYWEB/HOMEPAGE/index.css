@@ -87,17 +87,17 @@ section,
 }
 
 .content-one {
-    background: url(img1.gif) no-repeat fixed center;
+    background: url(img3.gif) no-repeat fixed center;
     background-size: cover;
 }
 
 .content-two {
-    background: url(img2.gif) no-repeat fixed center;
+    background: url(img1.gif) no-repeat fixed center;
     background-size: cover;
 }
 
 .content-three {
-    background: url(img3.gif) no-repeat fixed center;
+    background: url(img2.gif) no-repeat fixed center;
     background-size: cover;
 }
 
